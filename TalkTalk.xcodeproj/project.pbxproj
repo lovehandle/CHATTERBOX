@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		782993B516D16AC400FF0BFE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 782993B416D16AC400FF0BFE /* UIKit.framework */; };
+		782993B716D16AC400FF0BFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 782993B616D16AC400FF0BFE /* Foundation.framework */; };
+		782993B916D16AC400FF0BFE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 782993B816D16AC400FF0BFE /* CoreGraphics.framework */; };
+		782993BF16D16AC400FF0BFE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 782993BD16D16AC400FF0BFE /* InfoPlist.strings */; };
+		782993C116D16AC400FF0BFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 782993C016D16AC400FF0BFE /* main.m */; };
+		782993C516D16AC500FF0BFE /* TalkTalkAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 782993C416D16AC400FF0BFE /* TalkTalkAppDelegate.m */; };
+		782993C716D16AC500FF0BFE /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 782993C616D16AC500FF0BFE /* Default.png */; };
+		782993C916D16AC500FF0BFE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 782993C816D16AC500FF0BFE /* Default@2x.png */; };
+		782993CB16D16AC500FF0BFE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 782993CA16D16AC500FF0BFE /* Default-568h@2x.png */; };
+		782993CE16D16AC500FF0BFE /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 782993CC16D16AC500FF0BFE /* MainStoryboard.storyboard */; };
+		782993D116D16AC500FF0BFE /* TalkTalkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 782993D016D16AC500FF0BFE /* TalkTalkViewController.m */; };
+		782993D916D16AC500FF0BFE /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 782993D816D16AC500FF0BFE /* SenTestingKit.framework */; };
+		782993DA16D16AC500FF0BFE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 782993B416D16AC400FF0BFE /* UIKit.framework */; };
+		782993DB16D16AC500FF0BFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 782993B616D16AC400FF0BFE /* Foundation.framework */; };
+		782993E316D16AC500FF0BFE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 782993E116D16AC500FF0BFE /* InfoPlist.strings */; };
+		782993E616D16AC500FF0BFE /* TalkTalkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 782993E516D16AC500FF0BFE /* TalkTalkTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		782993DC16D16AC500FF0BFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 782993A916D16AC400FF0BFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 782993B016D16AC400FF0BFE;
+			remoteInfo = TalkTalk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		782993B116D16AC400FF0BFE /* TalkTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TalkTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		782993B416D16AC400FF0BFE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		782993B616D16AC400FF0BFE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		782993B816D16AC400FF0BFE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		782993BC16D16AC400FF0BFE /* TalkTalk-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TalkTalk-Info.plist"; sourceTree = "<group>"; };
+		782993BE16D16AC400FF0BFE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		782993C016D16AC400FF0BFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		782993C216D16AC400FF0BFE /* TalkTalk-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TalkTalk-Prefix.pch"; sourceTree = "<group>"; };
+		782993C316D16AC400FF0BFE /* TalkTalkAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TalkTalkAppDelegate.h; sourceTree = "<group>"; };
+		782993C416D16AC400FF0BFE /* TalkTalkAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TalkTalkAppDelegate.m; sourceTree = "<group>"; };
+		782993C616D16AC500FF0BFE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		782993C816D16AC500FF0BFE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		782993CA16D16AC500FF0BFE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		782993CD16D16AC500FF0BFE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		782993CF16D16AC500FF0BFE /* TalkTalkViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TalkTalkViewController.h; sourceTree = "<group>"; };
+		782993D016D16AC500FF0BFE /* TalkTalkViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TalkTalkViewController.m; sourceTree = "<group>"; };
+		782993D716D16AC500FF0BFE /* TalkTalkTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TalkTalkTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		782993D816D16AC500FF0BFE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		782993E016D16AC500FF0BFE /* TalkTalkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TalkTalkTests-Info.plist"; sourceTree = "<group>"; };
+		782993E216D16AC500FF0BFE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		782993E416D16AC500FF0BFE /* TalkTalkTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TalkTalkTests.h; sourceTree = "<group>"; };
+		782993E516D16AC500FF0BFE /* TalkTalkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TalkTalkTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		782993AE16D16AC400FF0BFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				782993B516D16AC400FF0BFE /* UIKit.framework in Frameworks */,
+				782993B716D16AC400FF0BFE /* Foundation.framework in Frameworks */,
+				782993B916D16AC400FF0BFE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		782993D316D16AC500FF0BFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				782993D916D16AC500FF0BFE /* SenTestingKit.framework in Frameworks */,
+				782993DA16D16AC500FF0BFE /* UIKit.framework in Frameworks */,
+				782993DB16D16AC500FF0BFE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		782993A816D16AC400FF0BFE = {
+			isa = PBXGroup;
+			children = (
+				782993BA16D16AC400FF0BFE /* TalkTalk */,
+				782993DE16D16AC500FF0BFE /* TalkTalkTests */,
+				782993B316D16AC400FF0BFE /* Frameworks */,
+				782993B216D16AC400FF0BFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		782993B216D16AC400FF0BFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				782993B116D16AC400FF0BFE /* TalkTalk.app */,
+				782993D716D16AC500FF0BFE /* TalkTalkTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		782993B316D16AC400FF0BFE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				782993B416D16AC400FF0BFE /* UIKit.framework */,
+				782993B616D16AC400FF0BFE /* Foundation.framework */,
+				782993B816D16AC400FF0BFE /* CoreGraphics.framework */,
+				782993D816D16AC500FF0BFE /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		782993BA16D16AC400FF0BFE /* TalkTalk */ = {
+			isa = PBXGroup;
+			children = (
+				782993C316D16AC400FF0BFE /* TalkTalkAppDelegate.h */,
+				782993C416D16AC400FF0BFE /* TalkTalkAppDelegate.m */,
+				782993CC16D16AC500FF0BFE /* MainStoryboard.storyboard */,
+				782993CF16D16AC500FF0BFE /* TalkTalkViewController.h */,
+				782993D016D16AC500FF0BFE /* TalkTalkViewController.m */,
+				782993BB16D16AC400FF0BFE /* Supporting Files */,
+			);
+			path = TalkTalk;
+			sourceTree = "<group>";
+		};
+		782993BB16D16AC400FF0BFE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				782993BC16D16AC400FF0BFE /* TalkTalk-Info.plist */,
+				782993BD16D16AC400FF0BFE /* InfoPlist.strings */,
+				782993C016D16AC400FF0BFE /* main.m */,
+				782993C216D16AC400FF0BFE /* TalkTalk-Prefix.pch */,
+				782993C616D16AC500FF0BFE /* Default.png */,
+				782993C816D16AC500FF0BFE /* Default@2x.png */,
+				782993CA16D16AC500FF0BFE /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		782993DE16D16AC500FF0BFE /* TalkTalkTests */ = {
+			isa = PBXGroup;
+			children = (
+				782993E416D16AC500FF0BFE /* TalkTalkTests.h */,
+				782993E516D16AC500FF0BFE /* TalkTalkTests.m */,
+				782993DF16D16AC500FF0BFE /* Supporting Files */,
+			);
+			path = TalkTalkTests;
+			sourceTree = "<group>";
+		};
+		782993DF16D16AC500FF0BFE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				782993E016D16AC500FF0BFE /* TalkTalkTests-Info.plist */,
+				782993E116D16AC500FF0BFE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		782993B016D16AC400FF0BFE /* TalkTalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 782993E916D16AC500FF0BFE /* Build configuration list for PBXNativeTarget "TalkTalk" */;
+			buildPhases = (
+				782993AD16D16AC400FF0BFE /* Sources */,
+				782993AE16D16AC400FF0BFE /* Frameworks */,
+				782993AF16D16AC400FF0BFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TalkTalk;
+			productName = TalkTalk;
+			productReference = 782993B116D16AC400FF0BFE /* TalkTalk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		782993D616D16AC500FF0BFE /* TalkTalkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 782993EC16D16AC500FF0BFE /* Build configuration list for PBXNativeTarget "TalkTalkTests" */;
+			buildPhases = (
+				782993D216D16AC500FF0BFE /* Sources */,
+				782993D316D16AC500FF0BFE /* Frameworks */,
+				782993D416D16AC500FF0BFE /* Resources */,
+				782993D516D16AC500FF0BFE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				782993DD16D16AC500FF0BFE /* PBXTargetDependency */,
+			);
+			name = TalkTalkTests;
+			productName = TalkTalkTests;
+			productReference = 782993D716D16AC500FF0BFE /* TalkTalkTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		782993A916D16AC400FF0BFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TalkTalk;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Ryan Closner";
+			};
+			buildConfigurationList = 782993AC16D16AC400FF0BFE /* Build configuration list for PBXProject "TalkTalk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 782993A816D16AC400FF0BFE;
+			productRefGroup = 782993B216D16AC400FF0BFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				782993B016D16AC400FF0BFE /* TalkTalk */,
+				782993D616D16AC500FF0BFE /* TalkTalkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		782993AF16D16AC400FF0BFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				782993BF16D16AC400FF0BFE /* InfoPlist.strings in Resources */,
+				782993C716D16AC500FF0BFE /* Default.png in Resources */,
+				782993C916D16AC500FF0BFE /* Default@2x.png in Resources */,
+				782993CB16D16AC500FF0BFE /* Default-568h@2x.png in Resources */,
+				782993CE16D16AC500FF0BFE /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		782993D416D16AC500FF0BFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				782993E316D16AC500FF0BFE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		782993D516D16AC500FF0BFE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		782993AD16D16AC400FF0BFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				782993C116D16AC400FF0BFE /* main.m in Sources */,
+				782993C516D16AC500FF0BFE /* TalkTalkAppDelegate.m in Sources */,
+				782993D116D16AC500FF0BFE /* TalkTalkViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		782993D216D16AC500FF0BFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				782993E616D16AC500FF0BFE /* TalkTalkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		782993DD16D16AC500FF0BFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 782993B016D16AC400FF0BFE /* TalkTalk */;
+			targetProxy = 782993DC16D16AC500FF0BFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		782993BD16D16AC400FF0BFE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				782993BE16D16AC400FF0BFE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		782993CC16D16AC500FF0BFE /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				782993CD16D16AC500FF0BFE /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		782993E116D16AC500FF0BFE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				782993E216D16AC500FF0BFE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		782993E716D16AC500FF0BFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		782993E816D16AC500FF0BFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		782993EA16D16AC500FF0BFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TalkTalk/TalkTalk-Prefix.pch";
+				INFOPLIST_FILE = "TalkTalk/TalkTalk-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		782993EB16D16AC500FF0BFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TalkTalk/TalkTalk-Prefix.pch";
+				INFOPLIST_FILE = "TalkTalk/TalkTalk-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		782993ED16D16AC500FF0BFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TalkTalk.app/TalkTalk";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TalkTalk/TalkTalk-Prefix.pch";
+				INFOPLIST_FILE = "TalkTalkTests/TalkTalkTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		782993EE16D16AC500FF0BFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TalkTalk.app/TalkTalk";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TalkTalk/TalkTalk-Prefix.pch";
+				INFOPLIST_FILE = "TalkTalkTests/TalkTalkTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		782993AC16D16AC400FF0BFE /* Build configuration list for PBXProject "TalkTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				782993E716D16AC500FF0BFE /* Debug */,
+				782993E816D16AC500FF0BFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		782993E916D16AC500FF0BFE /* Build configuration list for PBXNativeTarget "TalkTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				782993EA16D16AC500FF0BFE /* Debug */,
+				782993EB16D16AC500FF0BFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		782993EC16D16AC500FF0BFE /* Build configuration list for PBXNativeTarget "TalkTalkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				782993ED16D16AC500FF0BFE /* Debug */,
+				782993EE16D16AC500FF0BFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 782993A916D16AC400FF0BFE /* Project object */;
+}
