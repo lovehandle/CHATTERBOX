@@ -42,7 +42,7 @@
         [[AVAudioSession sharedInstance] setActive:NO error:nil];
     } else {
         [[AVAudioSession sharedInstance]
-         setCategory:AVAudioSessionCategoryPlayAndRecord
+         setCategory:AVAudioSessionCategoryRecord
          error: nil];
         
         NSDictionary *recordSettings = [[NSDictionary alloc] initWithObjectsAndKeys:
@@ -77,7 +77,7 @@
         [[AVAudioSession sharedInstance] setActive:NO error:nil];
     } else {
         [[AVAudioSession sharedInstance]
-         setCategory:AVAudioSessionCategoryPlayAndRecord error:nil];
+         setCategory:AVAudioSessionCategoryPlayback error:nil];
         
         sliderTimer = [NSTimer scheduledTimerWithTimeInterval:0.2
                                                        target:self selector:@selector(updateSlider) userInfo:nil
